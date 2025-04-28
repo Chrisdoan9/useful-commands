@@ -1,7 +1,7 @@
 ```
 du -sh .
 ```
-total size of current directory
+total size of current directory, s = summary, just the total, don't list subfolder/file
 
 ```
 find . -name "*.fastq.gz" 

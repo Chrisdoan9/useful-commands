@@ -11,3 +11,7 @@ find . -name "*.fastq.gz"
 find . -type f -name "*.sh"
 ```
 Find only **regular files** with names ending in .sh
+```
+qstat -u user
+```
+Check job status

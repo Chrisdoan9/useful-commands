@@ -7,3 +7,7 @@ total size of current directory, s = summary, just the total, don't list subfold
 find . -name "*.fastq.gz" 
 ``` 
 . = current directory, automatically includes all subdirectories
+```
+find . -type f -name "*.sh"
+```
+Find only **regular files** with names ending in .sh

@@ -24,3 +24,8 @@ BRCA1
 EGFR
 BCL2
 ```
+```
+awk -f top_genes.awk gene_expression.tsv | sort -k2,2nr | head -n 5
+```
+Sort by column 2, only column 2, numeric, reverse order.
+-f mean use this script 

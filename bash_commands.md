@@ -15,3 +15,8 @@ Find only **regular files** with names ending in .sh
 qstat -u user
 ```
 Check job status
+
+```
+wc -l gene_expression.tsv
+```
+Count the number of new line characters \n. If the last line doesn't have new line character, it won't count.

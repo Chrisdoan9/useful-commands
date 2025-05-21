@@ -28,4 +28,12 @@ BCL2
 awk -f top_genes.awk gene_expression.tsv | sort -k2,2nr | head -n 5
 ```
 Sort by column 2, only column 2, numeric, reverse order.
--f mean use this script 
+-f mean use this script
+```
+awk '/ACTB/' gene_expression.tsv
+```
+Output:
+```
+ACTB	1200	1300	1250	1400	1100
+```
+Print the line has the pattern, need //

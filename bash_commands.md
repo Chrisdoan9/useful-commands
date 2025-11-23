@@ -20,3 +20,12 @@ Check job status
 wc -l gene_expression.tsv
 ```
 Count the number of new line characters \n. If the last line doesn't have new line character, it won't count.
+
+```
+squeue -u $USER
+```
+Check running/pending jobs
+```
+qsub or sbatch
+```
+submit a job
